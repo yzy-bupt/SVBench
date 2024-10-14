@@ -6,7 +6,7 @@ This is the **code repository** of the paper "SVBench: A Benchmark with Temporal
 
 ## **Overview**
 
-[[overview](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/overview.png)](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/overview.png)
+![overview](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/overview.png)
 
 ### **Abstract**
 
@@ -23,7 +23,7 @@ Despite the significant advancements of Large Vision-Language Models (LVLMs) on 
 conda create -n SVBench -y python=3.8.18
 conda activate SVBench
 conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
-pip install 
+pip install opencv-python=4.10.0.84
 pip install git+https://github.com/openai/CLIP.git
 ```
 
@@ -77,8 +77,7 @@ tar -xzvf allVideo.tar.gz
 
 After completing these steps, you should see the extracted video files in the current directory.
 
-[[ring](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/ring.png)](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/ring.png)
-
+![ring](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/ring.png)
 1. Download from the official website:
 
 #### **YT-Temporal-1B**
@@ -109,11 +108,11 @@ Download the ActivityNet dataset following the instructions in the [**official w
 
 This section provides instructions for reproducing the annotation and evaluation of SVBench.
 
-[[framework](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/framework.png)](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/framework.png)
+![framework](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/framework.png)
 
 ### **1. Data Filtering**
 
-Run the following commands to obtain videos filtered. 
+Run the following commands to obtain filtered videos. 
 
 Firstly, you should install [Open-Sora](https://github.com/hpcaitech/Open-Sora/tree/main/tools), and have a raw video dataset prepared. A meta file of the dataset information is needed for data processing. To create a meta file from a folder, run:
 
@@ -252,7 +251,7 @@ python evaluation/eval_ConQA_gpt4_gpt4o.py
 
 ## **Evaluation of StreamingChat**
 
-[[model](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/model_framework.png)](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/model_framework.png)
+![model](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/model_framework.png)
 
 1. ### **Data Preparation**
 
