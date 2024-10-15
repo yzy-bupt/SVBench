@@ -31,10 +31,10 @@ pip install git+https://github.com/openai/CLIP.git
 
 1. Directly download our filtered SVBench dataset (recommended):
 
-(1) Download SVBench dataset from Hugging Face:
+(1) Download SVBench dataset from Hugging Face (We will open source it after the review process is completed):
 
 ```bash
-git clone https://huggingface.co/yzy666/SVBench
+git clone https://huggingface.co/XXX/SVBench
 ```
 
 (2) Navigate to the dataset directory:
