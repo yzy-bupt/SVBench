@@ -4,9 +4,16 @@
 
 This is the **code repository** of the paper "SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding".
 
+## **Demo**
+This is a data demo in our SVBench. The video is playing at 2x speed.
+
+https://github.com/user-attachments/assets/310ec07d-64b0-4880-b383-d8522018b5ab
+
 ## **Overview**
 
-![overview](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/overview.png)
+Illustration of temporal multi-turn dialogues. A temporal dialogue path represents a conversation within a video progressing over time. Our SVBench evaluates the capabilities of LVLMs in long-context streaming video understanding by constructing temporal dialogue paths to assess 9 critical skills.
+
+![overview](assets/images/overview.png)
 
 ### **Abstract**
 
@@ -77,7 +84,7 @@ tar -xzvf allVideo.tar.gz
 
 After completing these steps, you should see the extracted video files in the current directory.
 
-![ring](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/ring.png)
+![ring](assets/images/ring.png)
 1. Download from the official website:
 
 #### **YT-Temporal-1B**
@@ -108,7 +115,7 @@ Download the ActivityNet dataset following the instructions in the [**official w
 
 This section provides instructions for reproducing the annotation and evaluation of SVBench.
 
-![framework](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/framework.png)
+![framework](assets/images/framework.png)
 
 ### **1. Data Filtering**
 
@@ -251,7 +258,7 @@ python evaluation/eval_ConQA_gpt4_gpt4o.py
 
 ## **Evaluation of StreamingChat**
 
-![model](https://github.com/yzy-bupt/SVBench/blob/main/assets/images/model_framework.png)
+![model](assets/images/model_framework.png)
 
 1. ### **Data Preparation**
 
