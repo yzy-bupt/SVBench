@@ -7,7 +7,9 @@ This is the **code repository** of the paper "SVBench: A Benchmark with Temporal
 ## **Demo**
 This is a data demo in our SVBench. The video is playing at 2x speed.
 
-https://github.com/user-attachments/assets/310ec07d-64b0-4880-b383-d8522018b5ab
+```bash
+assets/video/demo.mp4
+```
 
 ## **Overview**
 
