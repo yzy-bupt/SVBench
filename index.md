@@ -328,13 +328,10 @@ Built upon InternVL2, we develop a streaming LVLM baseline named **StreamingChat
 
 ## Citation
 ```
-@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+@article{yang2025svbench,
+  title={SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding},
+  author={Yang, Zhenyu and Hu, Yuhang and Du, Zemin and Xue, Dizhan and Qian, Shengsheng and Wu, Jiahong and Yang, Fan and Dong, Weiming and Xu, Changsheng},
+  journal={arXiv preprint arXiv:2502.10810},
+  year={2025}
 }
 ```
