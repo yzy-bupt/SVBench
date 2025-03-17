@@ -9,10 +9,10 @@ affiliations:
     <sup><span style="color:blue">1</span></sup>Institute of Automation, Chinese Academy of Sciences, <sup><span style="color:green">2</span></sup>University of Chinese Academy of Sciences, <sup><span style="color:orange">3</span></sup>Kuaishou Technology, <sup><span style="color:purple">4</span></sup>Zhengzhou University, <sup><span style="color:brown">5</span></sup>ShanghaiTech University, <sup><span style="color:red">6</span></sup>Peng Cheng Laboratory
 conference:
     <strong><span style="color:gray">ICLR'2025</span> (<span style="color:red">Spotlight</span>🔥)</strong>
-paper: https://openreview.net/pdf?id=Hz4BYVY8YM
-video: https://www.youtube.com/results?search_query=turing+machine
+paper: https://arxiv.org/abs/2502.10810
 code: https://github.com/yzy-bupt/SVBench
-data: https://huggingface.co/docs/datasets
+data: https://huggingface.co/datasets/yzy666/SVBench
+video: https://forms.gle/tmY8PmM5KWSvTGcn7
 ---
 
 <!-- Using HTML to center the abstract -->
