@@ -1,15 +1,16 @@
-# **SVBench**
+<div align="center">
 
-### **SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding**
+# **SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding**
 
-This is the **code repository** of the paper "SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding".
+[\[🚀 Project Homepage\]](https://yzy-bupt.github.io/SVBench/) [\[📖 Paper\]](https://arxiv.org/abs/2502.10810)  [\[🤗 HF Dataset\]](https://huggingface.co/datasets/yzy666/SVBench) [\[🥇 Leaderboard Submission\]](https://forms.gle/tmY8PmM5KWSvTGcn7)
 
-## **Demo**
-This is a data demo in our SVBench. The video is playing at 2x speed.
+</div>
 
-```bash
-assets/video/demo.mp4
-```
+
+This is the **code repository** of the paper "SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding", which aims to provide a comprehensive overview of the SVBench dataset.
+
+## News 🚀🚀🚀
+- `2025.03.16`: 🔥 [SVBench](https://huggingface.co/datasets/yzy666/SVBench) is now released! Check out the [paper](https://arxiv.org/abs/2502.10810) for detailed insights, and access the [dataset](https://huggingface.co/datasets/yzy666/SVBench) on HuggingFace.
 
 ## **Overview**
 
@@ -19,9 +20,10 @@ Illustration of temporal multi-turn dialogues. A temporal dialogue path represen
 
 ### **Abstract**
 
-Despite the significant advancements of Large Vision-Language Models (LVLMs) on established benchmarks, there remains a notable gap in suitable evaluation regarding their applicability in the emerging domain of long-context streaming video understanding. Current benchmarks for video understanding typically emphasize isolated single-instance text inputs and fail to evaluate the capacity to sustain temporal reasoning throughout the entire duration of video streams. To address these limitations, we introduce SVBench, a pioneering benchmark with temporal multi-turn question-answering chains specifically designed to thoroughly assess the capabilities of streaming video understanding of current LVLMs. We design a semi-automated annotation pipeline to obtain 49,979 Question-Answer (QA) pairs of 1,353 streaming videos, which includes generating QA chains that represent a series of consecutive multi-turn dialogues over video segments and constructing temporal linkages between successive QA chains. Our experimental results, obtained from 14 models in dialogue and streaming evaluations, reveal that while the closed-source GPT-4o outperforms others, most open-source LVLMs struggle with long-context streaming video understanding. We also construct a StreamingChat model, which significantly outperforms open-source LVLMs on our SVBench and achieves comparable performance on diverse vision-language benchmarks. We expect SVBench to advance the research of streaming video understanding by providing a comprehensive and in-depth analysis of current LVLMs. Our benchmark and model can be accessed at https://anonymous.4open.science/r/SVBench-356F.
+Despite the significant advancements of Large Vision-Language Models (LVLMs) on established benchmarks, there remains a notable gap in suitable evaluation regarding their applicability in the emerging domain of long-context streaming video understanding. Current benchmarks for video understanding typically emphasize isolated single-instance text inputs and fail to evaluate the capacity to sustain temporal reasoning throughout the entire duration of video streams. To address these limitations, we introduce SVBench, a pioneering benchmark with temporal multi-turn question-answering chains specifically designed to thoroughly assess the capabilities of streaming video understanding of current LVLMs. We design a semi-automated annotation pipeline to obtain 49,979 Question-Answer (QA) pairs of 1,353 streaming videos, which includes generating QA chains that represent a series of consecutive multi-turn dialogues over video segments and constructing temporal linkages between successive QA chains. Our experimental results, obtained from 14 models in dialogue and streaming evaluations, reveal that while the closed-source GPT-4o outperforms others, most open-source LVLMs struggle with long-context streaming video understanding. We also construct a StreamingChat model, which significantly outperforms open-source LVLMs on our SVBench and achieves comparable performance on diverse vision-language benchmarks. We expect SVBench to advance the research of streaming video understanding by providing a comprehensive and in-depth analysis of current LVLMs. Our benchmark and model can be accessed at https://yzy-bupt.github.io/SVBench.
 
 ## **Getting Started**
+If you just want to use the SVBench dataset for training or evaluating your streaming model, feel free to directly visit [\[HF Dataset\]](https://huggingface.co/datasets/yzy666/SVBench). If you need to annotate your own streaming video dataset according to the SVBench pipeline, please continue reading the following content.
 
 ### **Installation**
 
@@ -33,17 +35,16 @@ conda create -n SVBench -y python=3.8.18
 conda activate SVBench
 conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
 pip install opencv-python=4.10.0.84
-pip install git+https://github.com/openai/CLIP.git
 ```
 
 ### **Data Preparation**
 
 1. Directly download our filtered SVBench dataset (recommended):
 
-(1) Download SVBench dataset from Hugging Face (We will open source it after the review process is completed):
+(1) Download SVBench dataset from Hugging Face:
 
 ```bash
-git clone https://huggingface.co/XXX/SVBench
+git clone https://huggingface.co/yzy666/SVBench
 ```
 
 (2) Navigate to the dataset directory:
@@ -413,5 +414,18 @@ The expected test results are:
         "Reasoning": "1.39",
         "Overall": "1.37"
     }
+}
+```
+
+## **Citation**
+
+If you find our data useful, please consider citing our work!
+
+```BibTeX
+@article{yang2025svbench,
+  title={SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding},
+  author={Yang, Zhenyu and Hu, Yuhang and Du, Zemin and Xue, Dizhan and Qian, Shengsheng and Wu, Jiahong and Yang, Fan and Dong, Weiming and Xu, Changsheng},
+  journal={arXiv preprint arXiv:2502.10810},
+  year={2025}
 }
 ```
