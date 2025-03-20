@@ -173,7 +173,7 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td style="text-align: center;">33.70</td>
       </tr>
       <tr>
-        <td style="text-align: center;">LLaVA-NeXT-Video</td>
+        <td style="text-align: center;">LLaVA-NeXT</td>
         <td style="text-align: center;">VideoLLM</td>
         <td style="text-align: center;">7B</td>
         <td style="text-align: center;">16</td>
@@ -322,7 +322,7 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td><u>53.48</u></td>
         <td>48.32</td>
         <td>49.67</td>
-        <td style="text-align: center;"><u>53.15</td>
+        <td style="text-align: center;"><u>53.15</u></td>
       </tr>
       <tr>
         <td style="text-align: center;">Qwen2-VL</td>
@@ -341,7 +341,7 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td>52.04</td>
         <td><u>51.42</u></td>
         <td><u>51.39</u></td>
-        <td style="text-align: center;"><strong>53.34</td>
+        <td style="text-align: center;"><strong>53.34</strong></td>
       </tr>
       <tr style="background-color: #e6e6e6;">
         <td colspan="17" style="text-align: center;"><strong>Closed-source LVLMs</strong></td>
@@ -389,19 +389,19 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td style="text-align: center;">-</td>
         <td style="text-align: center;">-</td>
         <td style="text-align: center;">25</td>
-        <td><strong>58.26</td>
-        <td><strong>64.76</td>
-        <td><strong>70.75</td>
-        <td><strong>67.68</td>
-        <td><strong>55.82</td>
-        <td><strong>62.57</td>
-        <td><strong>57.99</td>
-        <td><strong>63.52</td>
-        <td><strong>67.72</td>
-        <td><strong>60.18</td>
-        <td><strong>59.25</td>
-        <td><strong>59.97</td>
-        <td style="text-align: center;"><strong>61.27</td>
+        <td><strong>58.26</strong></td>
+        <td><strong>64.76</strong></td>
+        <td><strong>70.75</strong></td>
+        <td><strong>67.68</strong></td>
+        <td><strong>55.82</strong></td>
+        <td><strong>62.57</strong></td>
+        <td><strong>57.99</strong></td>
+        <td><strong>63.52</strong></td>
+        <td><strong>67.72</strong></td>
+        <td><strong>60.18</strong></td>
+        <td><strong>59.25</strong></td>
+        <td><strong>59.97</strong></td>
+        <td style="text-align: center;"><strong>61.27</strong></td>
       </tr>
     </tbody>
   </table>
