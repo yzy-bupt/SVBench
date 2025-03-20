@@ -310,11 +310,11 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
       <td style="text-align: center;">8B</td>
       <td style="text-align: center;">64</td>
       <td><strong>51.70</strong></td>
-      <td><strong>59.50</td>
-      <td><strong>65.33</td>
-      <td><strong>61.72</td>
-      <td><strong>50.09</td>
-      <td><strong>56.63</td>
+      <td><strong>59.50</strong></td>
+      <td><strong>65.33</strong></td>
+      <td><strong>61.72</strong></td>
+      <td><strong>50.09</strong></td>
+      <td><strong>56.63</strong></td>
       <td>46.44</td>
       <td>52.73</td>
       <td>58.35</td>
