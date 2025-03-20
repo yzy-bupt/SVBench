@@ -331,15 +331,15 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
       <td><u>50.47</u></td>
       <td><u>57.71</u></td>
       <td><u>63.46</u></td>
-      <td><u>60.77</td>
-      <td><u>49.44</td>
-      <td><u>55.29</td>
-      <td><u>48.38</td>
-      <td><u>55.17</td>
-      <td><u>59.91</td>
+      <td><u>60.77</u></td>
+      <td><u>49.44</u></td>
+      <td><u>55.29</u></td>
+      <td><u>48.38</u></td>
+      <td><u>55.17</u></td>
+      <td><u>59.91</u></td>
       <td>52.04</td>
-      <td><u>51.42</td>
-      <td><u>51.39</td>
+      <td><u>51.42</u></td>
+      <td><u>51.39</u></td>
       <td style="text-align: center;"><strong>53.34</strong></td>
     </tr>
     <tr style="background-color: #e6e6e6;">
@@ -404,6 +404,7 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
     </tr>
   </tbody>
 </table>
+
 *Table 1: Evaluation results of various models on SVBench in dialogue and streaming evaluation.*
 
 ## **Comparisons with Existing Benchmarks**
