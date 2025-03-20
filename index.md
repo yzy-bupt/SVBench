@@ -300,9 +300,9 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td><strong>52.62</strong></td>
         <td><strong>58.55</strong></td>
         <td><strong>62.89</strong></td>
-        <td><strong>53.98</td>
-        <td><strong>54.39</td>
-        <td><strong>54.39</td>
+        <td><strong>53.98</strong></td>
+        <td><strong>54.39</strong></td>
+        <td><strong>54.39</strong></td>
         <td style="text-align: center;">52.55</td>
       </tr>
       <tr style="background-color: #f9f9f9;">
@@ -310,16 +310,16 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td style="text-align: center;">ImageLLM</td>
         <td style="text-align: center;">8B</td>
         <td style="text-align: center;">64</td>
-        <td><strong>51.70</td>
-        <td><strong>59.50</td>
-        <td><strong>65.33</td>
-        <td><strong>61.72</td>
-        <td><strong>50.09</td>
-        <td><strong>56.63</td>
+        <td><strong>51.70</strong></td>
+        <td><strong>59.50</strong></td>
+        <td><strong>65.33</strong></td>
+        <td><strong>61.72</strong></td>
+        <td><strong>50.09</strong></td>
+        <td><strong>56.63</strong></td>
         <td>46.44</td>
         <td>52.73</td>
         <td>58.35</td>
-        <td><u>53.48</td>
+        <td><u>53.48</u></td>
         <td>48.32</td>
         <td>49.67</td>
         <td style="text-align: center;"><u>53.15</td>
@@ -329,18 +329,18 @@ To evaluate the performance of current LVLMs in **streaming video understanding*
         <td style="text-align: center;">ImageLLM</td>
         <td style="text-align: center;">7B</td>
         <td style="text-align: center;">8</td>
-        <td><u>50.47</td>
-        <td><u>57.71</td>
-        <td><u>63.46</td>
-        <td><u>60.77</td>
-        <td><u>49.44</td>
-        <td><u>55.29</td>
-        <td><u>48.38</td>
-        <td><u>55.17</td>
-        <td><u>59.91</td>
+        <td><u>50.47</u></td>
+        <td><u>57.71</u></td>
+        <td><u>63.46</u></td>
+        <td><u>60.77</u></td>
+        <td><u>49.44</u></td>
+        <td><u>55.29</u></td>
+        <td><u>48.38</u></td>
+        <td><u>55.17</u></td>
+        <td><u>59.91</u></td>
         <td>52.04</td>
-        <td><u>51.42</td>
-        <td><u>51.39</td>
+        <td><u>51.42</u></td>
+        <td><u>51.39</u></td>
         <td style="text-align: center;"><strong>53.34</td>
       </tr>
       <tr style="background-color: #e6e6e6;">
