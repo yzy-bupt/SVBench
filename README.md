@@ -2,7 +2,7 @@
 
 # **SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding**
 
-[\[🚀 Project Homepage\]](https://yzy-bupt.github.io/SVBench/) [\[📖 Paper\]](https://arxiv.org/abs/2502.10810)  [\[🤗 HF Dataset\]](https://huggingface.co/datasets/yzy666/SVBench) [\[🏆 Leaderboard\]](https://huggingface.co/spaces/yzy666/SVBench) [\[🥇 Leaderboard Submission\]](https://forms.gle/tmY8PmM5KWSvTGcn7) [\[📚 中文解读\]](https://b.xiumi.us/board/v5/3795o/608986741?share_depth=1) 
+[\[🚀 Project Homepage\]](https://yzy-bupt.github.io/SVBench/) [\[📖 Paper\]](https://arxiv.org/abs/2502.10810)  [\[🤗 HF Dataset\]](https://huggingface.co/datasets/yzy666/SVBench) [\[🤖 HF Model\]](https://huggingface.co/yzy666/StreamingChat_8B) [\[🏆 Leaderboard\]](https://huggingface.co/spaces/yzy666/SVBench) [\[🥇 Leaderboard Submission\]](https://forms.gle/tmY8PmM5KWSvTGcn7) [\[📚 中文解读\]](https://b.xiumi.us/board/v5/3795o/608986741?share_depth=1) 
 
 </div>
 
@@ -10,6 +10,7 @@
 This is the **code repository** of the paper "SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding", which aims to provide a comprehensive overview of the SVBench dataset.
 
 ## News 🚀🚀🚀
+- `2025.04.01`: 🔥 We have open-sourced [StreamingChat](https://huggingface.co/spaces/yzy666/SVBench)! Start using it for streaming inference right away!
 - `2025.03.23`: 🔥 Exciting news! You can now check out the real-time [leaderboard](https://huggingface.co/spaces/yzy666/SVBench) and submit your LVLMs results in 
 [Google Form](https://forms.gle/tmY8PmM5KWSvTGcn7). We can't wait to see your amazing work!
 - `2025.03.16`: 🔥 [SVBench](https://huggingface.co/datasets/yzy666/SVBench) is now released! Check out the [paper](https://arxiv.org/abs/2502.10810) for detailed insights, and access the [dataset](https://huggingface.co/datasets/yzy666/SVBench) on HuggingFace.
